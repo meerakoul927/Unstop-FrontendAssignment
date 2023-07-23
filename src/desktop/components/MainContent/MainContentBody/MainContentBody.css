@@ -1,0 +1,256 @@
+@import '../../../AppDesktop.css';
+
+.main_content_body{
+     width:100%;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+}
+
+.main_content_body_title{
+        color: var(--text-100, #1C4980);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%; /* 25.2px */
+        word-wrap: break-word;
+        text-align: center;
+}
+.main_content_body_content{
+      width:100%;
+      display: flex;
+      align-items: flex-start;
+      gap:1px;
+      border-radius: 12px;
+      border: 2px solid var(--system-stroke-2, #DADCE0);
+}
+.main_content_body_assessment{
+    display: flex;
+   
+    padding: 12px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    flex-shrink:0;
+    align-self: stretch;
+    background: var(--text-white, #FFF);
+    border-right: 1px solid var(--system-stroke-2, #DADCE0);
+}
+.main_content_body_assessment_title{
+    color: var(--text-100, #1C4980);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+}
+.main_content_body_assessment_count{
+      display:flex;
+      gap:1rem;
+      justify-content: center;
+      align-items: center;
+      padding:10px;
+}
+.main_content_body_assessment_equals_icon{
+        display: flex;
+        width: 40px;
+        height: 40px;
+        padding:10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        background: var(--accent-purple-light, #EBE8FD);
+}
+.main_content_assessment_count_icon{
+      width:20px;
+      height:20px;
+      flex-shrink: 0;
+}
+.main_content_body_count_value{
+    color: var(--text-100, #1C4980);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+.main_content_body_candidates{
+    display: flex;
+    padding: 12px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink:0;
+    align-self: stretch;
+    background: var(--text-white, #FFF);
+    border-right: 1px solid var(--system-stroke-2, #DADCE0);
+}
+.main_content_candidates_title{
+    color: var(--text-100, #1C4980);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+}
+.main_content_candidates_count_and_attempted{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      gap:1rem;
+      padding: 0 10px;
+}
+.main_content_candidates_count_and_attempted_group_icon{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--accent-purple-light, #EBE8FD);
+}
+.group-icon{
+    width:20px;
+    height:20px;
+    flex-shrink: 0;
+}
+.main_content_candidates_total_candidates{
+      display:block;
+}
+.main_content_candidates_count{
+    color: var(--text-100, #1C4980);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding-right:0.5rem;
+    line-height: 140%; 
+}
+.main_content_candidates_count_still{
+    color: var(--status-success, #05C165);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+    
+}
+.main_content_candidates_count_description{
+    color: #1C4980;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+}
+.main_content_candidates_line_height{
+    width: 0px;
+    height: 40px;
+    stroke-width: 1px;
+    stroke: var(--system-stroke-2, #DADCE0);
+    padding:0 10px;
+}
+.main_content_candidate_source{
+    display: flex;
+  
+    padding: 12px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    flex-shrink: 0;
+    align-self: stretch;
+    background: var(--text-white, #FFF);
+    border-right: 1px solid var(--system-stroke-2, #DADCE0);
+}
+.main_content_candidate_social_source{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      padding:0 10px;
+      gap:1rem;
+}
+
+.main_content_body_candidate_source_social_icon{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding:0 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--accent-pink-light, #FCE8EF);
+}
+.main_content_candidate_source_icon{
+    width:40px;
+    height:20px;
+    flex-shrink: 0;
+    color:var(--accent-pink-light);
+}
+.main_content_candidate_source_count{
+      height:40px;
+      border-right: 1px solid var(--system-stroke-2, #DADCE0);
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: flex-start;
+      padding:0 7px;
+      gap:0.2rem;
+}
+.main_content_candidate_unique_source_count{
+    height:40px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    padding:0 7px;
+    gap:0.2rem;
+}
+.main_content_candidate_source_count_still{
+    color: var(--status-success, #05C165);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+}
+.main_content_candidate_source_number{
+    color: var(--text-100, #1C4980);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+    gap:0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.candidate_source{
+    color: #1C4980;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+}
+ 
+.main_content_total_purpose{
+      display:flex;
+      flex-direction: column;
+     padding: 12px 16px;
+     align-items: flex-start;
+     flex-shrink: 0;
+    align-self: stretch;
+}

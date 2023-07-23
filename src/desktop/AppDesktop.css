@@ -1,0 +1,36 @@
+.root{
+    --accent-new-red:#D63500;
+    --accent-red-light:#FBEBEA;
+    --Text : #1C4980;
+    --Secondary:#0073E6;
+    --accent-pink-light:#FCE8EF;
+    --accent-purple-light:#EBE8FD;
+    --accent-purple:#6548EE;
+    --System-Divider:#DDE5EA;
+    --text-100:#1C4980;
+    --secondary-1:#0073E6;
+    ----accent-purple-light:#EBE8FD;
+    ----system-stroke-2:#DADCE0;
+    --accent-pink-light:#E9407A;
+    --status-success:#05C165;
+    --primary-50:#8DA4Bf;
+    --pastel-royal-blue:##3079E1;
+    
+}
+.desktop_main_screen{
+    width: 1440px; 
+    background-color: #F6F8FA;
+    position:relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.desktop_divider_screen{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:1rem;
+    padding-top: 2rem;
+
+    
+}
